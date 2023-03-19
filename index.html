@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Form           
+        </title>
+        <link href = "tic.css" rel ="stylesheet">
+    </head>
+    <body>
+        <h1>FORM DETAILS</h1>
+        <div class = "container">
+        <form  name = "form1" class = "f1" onsubmit= "return myfunction()">
+        <table>
+            <tr><th colspan="2"><h3>....ENTER CORRECT DETAILS....</h3></th></tr>
+            <tr><td><label>FirstName:</label></td>
+                <td><input type = "Text" id = "n1"></td></tr>
+            <tr><td><label>LastName:</label></td>
+                <td><input type = "Text" id = "n2"></td></tr>
+            <tr><td><label>Email:</label></td>
+                <td><input type = "email" id = "n3"></td></tr>
+            <tr><td><label>Mobile Number:</label></td>
+                <td><input type = "tel" id ="n4" minlength = 10 maxlength="10"></td></tr>
+
+                <tr><td><label>State:</label></td>
+                    <td><select name = "State"  value = "" id="n5">
+                    <option value ="Jammu">Jammu</option>
+                    <option value = "Kashmir">Kashmir</option>
+                    <option value = "Ladakh">Ladakh</option>
+                    </select>
+                </td></tr>
+    
+                <tr><td><label value ="" id ="n6">Gender:</label></td>
+                    <td><input type = "radio"  name ="gender" id ="" value ="Male">Male<br>
+                        <input type = "radio"  name ="gender" id ="" value = "Female">Female<br>
+                        <input type = "radio"  name ="gender" id ="" value = "Other" >Other</td></tr>
+            
+                <tr><td><label value = "" id = "n7" >Language:</label></td>
+                    <td><input type = "checkbox" name = "course" id ="" value = "English">English
+                        <input type = "checkbox" name = "course" id ="" value = "Hindi">Hindi
+                        <input type = "checkbox" name = "course" id ="" value = "Urdu">Urdu
+                        <input type = "checkbox" name = "course" id = "" value = "Dogri">Dogri</td></tr>
+
+           
+            
+            <tr><td><input type = "reset" value = "reset"></td>
+            <td><input type = "submit" value ="submit"></td></tr>
+        </table>
+        </form>
+        </div>
+    </body>
+    <script src = "script.js"></script>
+        
+    
+    
+        
+</html>
