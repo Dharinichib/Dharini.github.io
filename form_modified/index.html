@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+         <meta na  me="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <title>
+            Form           
+        </title>
+        <link href = "style.css" rel ="stylesheet">
+    </head>
+    <body>
+        
+        <div class = "container">
+
+            <div class = "title"><h1>FORM DETAILS</h1><br><br></div>
+        <form  id = "form1" onsubmit = "myfunction()">
+            <div class = "user">
+            <div><label>FirstName:</label>
+                <input type = "Text" name ="FirstName">
+                </div><br>
+                 
+                <div><label>LastName:</label>
+                <input type = "Text" name = "LastName"></div><br>
+            
+               <div><label>Email:</label>
+                <input type = "email" name = "Email"></div><br>
+                
+               <div><label>Mobile Number:</label>
+                <input type = "text" name = "Mobile Number" minlength = 10 maxlength="10"></div>
+                <br>
+               <div><label>State:</label>
+                    <select name = "State"  value = "" id="n5">
+                    <option value ="Jammu">Jammu</option>
+                    <option value = "Kashmir">Kashmir</option>
+                    <option value = "Ladakh">Ladakh</option>
+                    </select></div><br>
+                
+                    
+                 <div><label value ="" id ="n6">Gender:</label>
+                       <input type = "radio"  name ="gender" id ="" value ="Male">Male<br>
+                        <input type = "radio"  name ="gender" id ="" value = "Female">Female<br>
+                        <input type = "radio"  name ="gender" id ="" value = "Other" >Other</div>
+                        <br>
+                    <div><label value = "" id = "n7" >Language:</label>
+                        <input type = "checkbox" name = "lang" id ="English" value = "English"><span id ="English">English</span>
+                        <input type = "checkbox" name = "lang" id ="" value = "Hindi"><span id ="Hindi">Hindi</span>
+                        <input type = "checkbox" name = "lang" id ="" value = "Urdu"><span id ="Urdu">Urdu</span>
+                        <input type = "checkbox" name = "lang" id = "" value = "Dogri"><span id ="Dogri">Dogri</span></div>
+                        <br>
+        
+            
+            <input type = "reset" id = "reset" value = "reset">
+            <input type = "submit" id = "submit" value ="submit">
+        </form>
+        </div>
+        </div>
+    </body>
+    <script src = "script_mod.js"></script>
+        
+    
+    
+        
+</html>
