@@ -36,4 +36,3 @@ function getData(){
        }
     })
 })
-l
